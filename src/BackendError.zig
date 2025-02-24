@@ -1,3 +1,5 @@
-pub const BackendError = error{
-    UnknownStateValue,
+const std = @import("std");
+
+pub const BackendError = error {
+    InvalidName,
 };
